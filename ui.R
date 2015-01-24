@@ -45,12 +45,6 @@ shinyUI(navbarPage("Spend it? or Save it?",
             ),
             tabPanel("How to use this App",       
                      
-#                      sidebarPanel(
-#                            
-#                            sliderInput('ya', 'Years of accumulation',value = 20, min = 1, max = 50, step = 1,)
-#                            
-#                            
-#                      ),
                      mainPanel(
                            
                            h2("Calcurate how much you spend on regular basis per week."),
@@ -68,6 +62,3 @@ shinyUI(navbarPage("Spend it? or Save it?",
             )
 ))
 
-
-
-# runApp()
